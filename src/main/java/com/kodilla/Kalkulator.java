@@ -20,5 +20,7 @@ public class Kalkulator {
         Kalkulator kalkulator = new Kalkulator();
         kalkulator.addingAAndB();
         kalkulator.subtrucktBFromA();
+
+        System.out.println("zmiana");
     }
 }
