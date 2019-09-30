@@ -22,5 +22,6 @@ public class Kalkulator {
         kalkulator.subtrucktBFromA();
 
         System.out.println("zmiana");
+
     }
 }
