@@ -6,19 +6,19 @@ public class Kalkulator {
     int b = 3;
     int result;
 
-    public void add() {
+    public void addingAAndB() {
         result = a + b;
         System.out.println("Wynik dodawania (a+b): " + result);
     }
 
-    public void deduct() {
+    public void subtrucktBFromA() {
         result = a - b;
         System.out.println("Wynik odejmowania (a-b): " + result);
     }
 
     public static void main(String[] args) {
         Kalkulator kalkulator = new Kalkulator();
-        kalkulator.add();
-        kalkulator.deduct();
+        kalkulator.addingAAndB();
+        kalkulator.subtrucktBFromA();
     }
 }
