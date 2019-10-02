@@ -10,8 +10,7 @@ public class Kalkulator {
         result = a + b;
         System.out.println("Wynik dodawania (a+b): " + result);
     }
-
-    public void subtrucktBFromA() {
+    public void subtrucktAFromB() {
         result = a - b;
         System.out.println("Wynik odejmowania (a-b): " + result);
     }
@@ -19,10 +18,6 @@ public class Kalkulator {
     public static void main(String[] args) {
         Kalkulator kalkulator = new Kalkulator();
         kalkulator.addingAAndB();
-        kalkulator.subtrucktBFromA();
-
-        System.out.println("zmiana");
-        System.out.println("zmiana2");
-
+        kalkulator.subtrucktAFromB();
     }
 }
